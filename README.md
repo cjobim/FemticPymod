@@ -9,7 +9,10 @@ A quick summary of the modifications are:
 - export of ensembles of models defined on the same mesh to a simple .json file for simple statistics. 
 - some GMT plotting scripts others may find useful: plotting of multiple depth slices of femtic outputs, 
 - there are probably a few things I am forgetting, I will update this when I find the time.
-- None of this is very user-friendly at the moment, and it will most likely not work for you without quite some work. If you are beginning to use femtic, I strongly recommend starting with Hoël Seillé's femticPy and his python notebooks. 
+- a routine to extract the vertical resistivity profile below a point from a femtic tetrahedral mesh
+- a routine to project stations on profiles with a given distance - stations and their projected locations are saved in a profile-related csv file where they can be edited out as needed for plotting. 
+- a routine to make parameter files for profiles to use for Dr Usui's routine makeCutawayforFemtic
+- None of this is very user-friendly at the moment, and it will most likely not work for you without quite some work. If you are beginning to use femtic, I strongly recommend starting with Hoël Seillé's femticPy and notebooks. 
 
 Perspectives: I am keen to add a data structure to handle model ensembles, but have no fixed deadline set for this. The reliance on .json files described above is a least-effort approach that isn't quite satisfactory. 
 
